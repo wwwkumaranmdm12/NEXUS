@@ -1,6 +1,7 @@
 services:
   - type: web
     name: nexus
-    env: docker
-    buildCommand: "./mvnw clean package -DskipTests"
-    startCommand: "java -jar target/*.jar"
+    runtime: docker
+    repo: https://github.com/wwwkumaranmdm12/NEXUS
+    branch: main
+    plan: free
