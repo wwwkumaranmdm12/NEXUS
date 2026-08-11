@@ -1,6 +1,6 @@
 services:
   - type: web
     name: nexus
-    env: native
+    env: docker
     buildCommand: "./mvnw clean package -DskipTests"
     startCommand: "java -jar target/*.jar"
