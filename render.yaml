@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: nexus
-    runtime: docker
-    repo: https://github.com/wwwkumaranmdm12/NEXUS
-    branch: main
-    plan: free
