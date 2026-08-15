@@ -28,7 +28,7 @@ public class InventoryItem {
 
     private String zone;
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private BigDecimal price;
 
     @Column(nullable = false)
